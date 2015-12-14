@@ -2,6 +2,8 @@
 
 Bei der Installation von Python, add to PATH Variable und install pip anclicken.
 
+Das Script funktioniert gegen die Version V4.5.3.0
+
 ## Installation von suds
 
     pip install suds-jurko
@@ -31,3 +33,13 @@ Bei der Installation von Python, add to PATH Variable und install pip anclicken.
         Types (0):
 		
 ## Other Services
+
+## Konfiguration
+
+Die Konfiguration erfolgt im servers.ini file
+
+## Benutzung
+
+    py deploy_scenario.py <ScenarioName> <Deployment-Kommentar> <PfadZuPSC> <Instanz>
+	
+Die Instanz entspricht dem Abschnit [Instanz] in servers.ini
